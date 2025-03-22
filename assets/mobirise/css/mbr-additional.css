@@ -1368,10 +1368,56 @@ a {
 .cid-uFBtECjPE2 .mbr-section-btn {
   text-align: center;
 }
+.cid-uGbeIXJ8L9 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-uGbeIXJ8L9 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uGbeIXJ8L9 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-uGbeIXJ8L9 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uGbeIXJ8L9 .row {
+  flex-direction: row-reverse;
+}
+.cid-uGbeIXJ8L9 .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-uGbeIXJ8L9 .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-uGbeIXJ8L9 .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-uGbeIXJ8L9 .mbr-section-title {
+  color: #000000;
+  text-align: center;
+}
+.cid-uGbeIXJ8L9 .mbr-text,
+.cid-uGbeIXJ8L9 .mbr-section-btn {
+  color: #232323;
+}
 .cid-uF2pjlL9zZ {
   padding-top: 1rem;
   padding-bottom: 4rem;
-  background-color: #ffffff;
+  background-color: #8fccf1;
 }
 .cid-uF2pjlL9zZ .mbr-fallback-image.disabled {
   display: none;
@@ -1423,7 +1469,7 @@ a {
   text-align: center;
 }
 .cid-uF2pjlL9zZ .mbr-section-title {
-  text-align: left;
+  text-align: center;
 }
 .cid-uF2pjlL9zZ .mbr-text,
 .cid-uF2pjlL9zZ .mbr-section-btn {
@@ -1432,7 +1478,7 @@ a {
 .cid-uFebirqkCa {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  background-color: #8fccf1;
+  background-color: #ffffff;
 }
 .cid-uFebirqkCa img,
 .cid-uFebirqkCa .item-img {
@@ -1476,7 +1522,7 @@ a {
 }
 .cid-uFebirqkCa .item-wrapper {
   position: relative;
-  background: #ffffff;
+  background: #8fccf1;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -1503,7 +1549,7 @@ a {
 .cid-uFdQWK7hHk {
   padding-top: 3rem;
   padding-bottom: 2rem;
-  background-color: #ffffff;
+  background-color: #8fccf1;
 }
 .cid-uFdQWK7hHk .mbr-text {
   color: #000000;
@@ -1574,7 +1620,7 @@ a {
   border-radius: 2rem;
 }
 .cid-uFdQWK7hHk .card {
-  background: #8fccf1;
+  background: #ffffff;
   padding: 2.25rem;
   margin-bottom: 1rem;
 }
@@ -2978,7 +3024,7 @@ a {
 }
 .cid-uFptnNUZWY {
   padding-top: 8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/contruong-2000x1500.png");
 }
 .cid-uFptnNUZWY .mbr-overlay {
