@@ -1,0 +1,151 @@
+/* scrollToTop */
+#scrollToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 42px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 100;
+}
+#scrollToTop:hover {
+    background-color: #005F9E;
+    color: white;
+    border: 2px solid #005F9E;
+}
+
+
+/* Nút chia sẻ */
+#shareButton {
+    position: fixed;
+    bottom: 75px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+/* Hộp chia sẻ */
+#shareBox {
+    position: fixed;
+    bottom: 125px;
+    right: 30px;
+    width: 300px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+}
+#shareBox.hidden {
+    display: none;
+}
+#shareBox input {
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+#shareBox button, #shareBox a {
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+#copyLink {
+    background-color: #28a745;
+    color: white;
+}
+#shareFacebook {
+    background-color: #1877f2;
+    color: white;
+}
+#shareTwitter {
+    background-color: #0099ff;
+    color: white;
+}
+#shareEmail {
+    background-color: #0088ff;
+    color: white;
+}
+#closeShareBox {
+    background-color: white;
+    color: black;
+}
+/*hover*/
+#shareButton:hover {
+    background-color: #005F9E;
+    color: white;
+    border: 2px solid #005F9E;
+}
+#copyLink:hover {
+    background-color: #218838;
+}
+#generateQR:hover {
+    background-color: #6A3DA0;
+}
+#shareFacebook:hover {
+    background-color: #0f66d0;
+}
+#shareTwitter:hover {
+    background-color: #0080d4;
+}
+#shareEmail:hover {
+    background-color: #0077e6;
+}
+
+
+@media (max-width: 768px) {
+    #scrollToTop {
+        bottom: 25px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    #shareButton {
+        bottom: 65px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    #shareBox {
+        bottom: 105px;
+        right: 15px;
+        width: 250px;
+    }
+}
